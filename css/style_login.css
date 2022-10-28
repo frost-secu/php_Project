@@ -1,0 +1,14 @@
+.login-box
+{
+	width: 450px;
+	height: 800px;
+	margin: auto;
+	
+	outline: 1cm black;
+}
+.account
+{
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 300;
+
+}
