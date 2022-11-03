@@ -5,18 +5,30 @@
 	width: 1200px;
 	height: 600px;
 }
+.logo
+{
+	border: 1px solid black;
+	margin-right: 50%;
+	margin-top: 5%;
+	background-color: lightgray;
+	width: 500px;
+	height: 300px;
+	float: inline-start;
+}
 .account
 {
+	border: 0.5px solid black;
 	font-family: 'Gothic A1', sans-serif;
-	margin:20% 0 0 50%;
-	font-weight: 300;
+	width: 400px;
+	height: auto;
+	margin:0 100px 0 50%;
+	float: inline-end;
 }
 
 #id
 {
 	font-size: 35px;
 }
-
 #pw
 {
 	font-size: 35px;
