@@ -12,18 +12,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login</title>
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<center>
-		<form action="php/login_act.php" method="post" name="form_submit" onsubmit="test()">
-			<div class="Login-box">
+		<div class="Login-box">
+			<form action="php/login_act.php" method="post" name="form_submit" onsubmit="test()">
 				<div class="account">
-					ID
-					PW
+					<span id="id">ID : <input type="text" name="id_input" id="id_text"> </span>
+					<br><br>
+					<span id="pw">PW : <input type="text" name="pw_input" id="pw_text"> </span>
 				</div>
-			</div>
-		</form>
+			</form>
+		</div>
 	</center>
 </body>
 </html>

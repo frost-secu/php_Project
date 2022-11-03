@@ -1,14 +1,41 @@
-.login-box
+.Login-box
 {
-	width: 450px;
-	height: 800px;
-	margin: auto;
-	
-	outline: 1cm black;
+	border: 0.5px solid black;
+	margin-top: 10%;
+	width: 1200px;
+	height: 600px;
 }
 .account
 {
 	font-family: 'Gothic A1', sans-serif;
+	margin:20% 0 0 50%;
 	font-weight: 300;
+}
 
+#id
+{
+	font-size: 35px;
+}
+
+#pw
+{
+	font-size: 35px;
+}
+
+/* DO NOT TOUCH */
+#id_text
+{
+	margin-left: 18px;
+	border: 0.7px solid black;
+	width: 300px;
+	height: 40px;
+	font-size: 35px;
+}
+/* DO NOT TOUCH */
+#pw_text
+{
+	border: 0.7px solid black;
+	width: 300px;
+	height: 40px;
+	font-size: 35px;
 }
