@@ -1,6 +1,6 @@
 .Login-box
 {
-	border: 0.5px solid black;
+	border: 0.5px solid white;
 	margin-top: 10%;
 	width: 1200px;
 	height: 600px;
@@ -10,21 +10,23 @@
 	border: 1px solid black;
 	margin-right: 50%;
 	margin-top: 5%;
-	background-color: lightgray;
 	width: 500px;
 	height: 300px;
-	float: inline-start;
 }
 .account
 {
-	border: 0.5px solid black;
+	border: 0.5px solid white;
 	font-family: 'Gothic A1', sans-serif;
 	width: 400px;
 	height: auto;
-	margin:0 100px 0 50%;
-	float: inline-end;
+	margin: 83px 100px 0 140%;
+	
 }
 
+#image_logo
+{
+	background-image: url(../image/logo.png);
+}
 #id
 {
 	color: burlywood;
