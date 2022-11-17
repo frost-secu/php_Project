@@ -1,56 +1,47 @@
-.Login-box
-{
-	border: 0.5px solid white;
-	margin-top: 10%;
-	width: 1200px;
-	height: 600px;
+.Login-box {
+  border: 0.5px solid black;
+  margin-top: 10%;
+  width: 1200px;
+  height: 600px;
 }
-.logo
-{
-	border: 1px solid black;
-	margin-right: 50%;
-	margin-top: 5%;
-	width: 500px;
-	height: 300px;
+.logo {
+  border: 1px solid black;
+  margin-right: 50%;
+  margin-top: 5%;
+  width: 500px;
+  height: 300px;
 }
-.account
-{
-	border: 0.5px solid white;
-	font-family: 'Gothic A1', sans-serif;
-	width: 400px;
-	height: auto;
-	margin: 83px 100px 0 140%;
-	
+.account {
+  border: 0.5px solid white;
+  font-family: "Gothic A1", sans-serif;
+  width: 400px;
+  height: auto;
+  margin: 83px 100px 0 140%;
 }
 
-#image_logo
-{
-	background-image: url(../image/logo.png);
+#image_logo {
+  background-image: url(../image/logo.png);
 }
-#id
-{
-	color: burlywood;
-	font-size: 35px;
+#id {
+  color: burlywood;
+  font-size: 35px;
 }
-#pw
-{
-	font-size: 35px;
+#pw {
+  font-size: 35px;
 }
 
 /* DO NOT TOUCH */
-#id_text
-{
-	margin-left: 18px;
-	border: 0.7px solid black;
-	width: 300px;
-	height: 40px;
-	font-size: 35px;
+#id_text {
+  margin-left: 18px;
+  border: 0.7px solid black;
+  width: 300px;
+  height: 40px;
+  font-size: 35px;
 }
 /* DO NOT TOUCH */
-#pw_text
-{
-	border: 0.7px solid black;
-	width: 300px;
-	height: 40px;
-	font-size: 35px;
+#pw_text {
+  border: 0.7px solid black;
+  width: 300px;
+  height: 40px;
+  font-size: 35px;
 }
